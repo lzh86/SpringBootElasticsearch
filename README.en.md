@@ -1,36 +1,18 @@
-# SpringbootElasticsearch
+# SpringBootElasticsearch
 
-#### Description
-Springboot利用 coClient 操作ES 8.4 、利用RestClient 操作 ES 5.6
+#### 介绍
+SpringBoot结合Elasticsearch
+Elasticsearch 官方推荐 Elasticsearch Java API Client
+Kibana界面 HTTP 请求命令操作
 
-#### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+#### 安装教程
+1.  windows下安装 elasticsearch,启动bin目录下 elasticsearch.bat
+    (启动前需要先下载 elasticsearch-analysis-ik，需要注意版本和elasticsearch版本一致)
+2.  windows下安装 kibana,启动bin目录下 kibana.bat
 
 
-#### Gitee Feature
+#### 页面操作使用说明
+1.  elasticsearch:http://localhost:9200/
+2.  kibana:http://localhost:5601/app/dev_tools#/console
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
