@@ -1,0 +1,19 @@
+server:
+    port: 8080
+
+spring:
+    elasticsearch:
+        connection-timeout: 5000
+        uris: 127.0.0.1:9200
+        socket-timeout: 5000
+
+
+#elasticsearch:
+#address: 127.0.0.1:9200
+#connectTimeout: 5000
+#socketTimeout: 5000
+#connectionRequestTimeout: 5000
+#maxConnectNum: 100
+#maxConnectPerRoute: 100
+
+
